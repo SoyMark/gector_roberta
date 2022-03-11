@@ -15,6 +15,14 @@ pip install -r requirements.txt
 ```
 The project was tested using Python 3.7 on both Ubuntu 20.04 and Windows 10.
 
+#### Model
+
+download model from
+
+> https://drive.google.com/file/d/1HujoTB_tcAaCkA5OZ9RRAAD9ZoPWpyr0/view?usp=sharing
+
+then move this file into "./model"
+
 ## Usage
 
 Enter the input text into "./input/input.txt", then:

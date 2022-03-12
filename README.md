@@ -4,7 +4,11 @@ This repository is slightly modified on the original code repository:
 
 > https://github.com/MaksTarnavskyi/gector-large
 
-which can nearly reach the performance of SOTA
+which can nearly reach the performance of SOTA (2021) 
+
+> [A Simple Recipe for Multilingual Grammatical Error Correction](https://arxiv.org/pdf/2106.03830.pdf)
+
+
 
 ## Installation
 The following command installs all necessary packages:
@@ -33,4 +37,4 @@ python predict.py
 
 The output will be in "./output/output.txt"
 
-The input test will be handled by the model line by line(128 lines per batch), the default max_len is 100, and the default min_len is 1. Make sure each line of input comes within that range!  You can modify those parameters in predict.py if you want.
+The input text will be handled by the model line by line(128 lines per batch). the default `max_len` is 100, and the default `min_len` is 1. Make sure each line of input comes within that range!  You can modify those parameters in predict.py if you want.
